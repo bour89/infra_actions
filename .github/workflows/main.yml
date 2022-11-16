@@ -1,4 +1,5 @@
- tests:
+jobs:
+  tests:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,4 +27,3 @@
         cd infra_project/
         # запустить написанные разработчиком тесты
         python manage.py test
- 
